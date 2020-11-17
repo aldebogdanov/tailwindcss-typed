@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "laniakea/tailwindcss-typed",
+    "name": "lnkr-a/tailwindcss-typed",
     "summary": "Pack of types and function to simplify using Tailwind CSS classes",
     "license": "BSD-3-Clause",
     "version": "1.0.0",
