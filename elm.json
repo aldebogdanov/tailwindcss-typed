@@ -3,18 +3,14 @@
     "name": "lnkr-a/tailwindcss-typed",
     "summary": "Pack of types and function to simplify using Tailwind CSS classes",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
-      "TailwindCSS"
-    ],
-    "source-directories": [
-        "src"
+        "TailwindCSS"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
-        "elm/html": "1.0.0 <= v < 2.0.0",
-        "elm/core": "1.0.0 <= v < 2.0.0"
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0"
     },
-    "test-dependencies": {
-    }
+    "test-dependencies": {}
 }

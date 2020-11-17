@@ -37,10 +37,10 @@ Examples:
 
 | This library type | Talewind CSS class      |
 | ----------- | ----------- |
-|   BgYellow400 | "bg-yellow-400"
-|   BorderOpacity75 | "border-opacity-75"
-|   SkewX12_ | "-skew-x-12"
-|   TranslateY1_2 | "translate-y-1/2"
+|   BgYellow400 | "bg-yellow-400" |
+|   BorderOpacity75 | "border-opacity-75" |
+|   SkewX12_ | "-skew-x-12" |
+|   TranslateY1_2 | "translate-y-1/2" |
 |   SM W1_2 | "sm:w-1/2" |
 |   LG W1_4 | "lg:w-1/4" |
 |   HOVER BgTeal300 | "hover:bg-teal-300" |
