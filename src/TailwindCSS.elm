@@ -1,9 +1,24 @@
 module TailwindCSS exposing (tailwind, TailwindCSS)
 
+{-| This library define a list of types to describe Tailwind CSS classes.
+Use them as arguments of tailwind function to become Attribute msg with classes.
+
+# Types
+@docs TailwindCSS
+
+# Converter function
+@docs tailwind
+
+-}
+
 import Html exposing (Attribute)
 import Html.Attributes exposing (classList)
 
+{-| Convert a list of TailwindCSS values into a classList of Tailwind CSS classes.
+Designed to be used in Html elements.
 
+    Html.div [ tailwind [ BgGreen500, BgOpacity50 ]] [] -- <div class="bg-green-500 bg-opacity-50"></div>
+-}
 tailwind : List TailwindCSS -> Attribute msg
 tailwind tws = classList <| List.map (\t -> (classSelect t, True)) tws
 
@@ -2230,7 +2245,21 @@ classSelect cl = case cl of
     ProseXl -> "prose-xl"
     Prose2xl -> "prose-2xl"
 
+{-| Type to represent Tailwind CSS classes.
+First letter become uppercase. All alphabetic chars after hyphens become uppercase. Hyphens are removed.
+Values like 1/2 become 1_2 with underscore instead of slash. Prefixed negation minus become postfix underscore.
+Pseudo classes are wrapper types.
 
+    BgYellow400 -- "bg-yellow-400"
+    BorderOpacity75 -- "border-opacity-75"
+    SkewX12_ -- "-skew-x-12"
+    TranslateY1_2 -- "translate-y-1/2"
+
+    SM W1_2 -- "sm:w-1/2"
+    LG W1_4 -- "lg:w-1/4"
+    HOVER BgTeal300 -- "hover:bg-teal-300"
+
+-}
 type TailwindCSS
     = SM TailwindCSS
     | MD TailwindCSS
