@@ -33,15 +33,13 @@ If you call `view "Hello world!"` you get something like this:
 - Slash between numbers changed to underscore.
 - Negating minus in beginning changed to postfix underscore.
 
-Examples:
+Examples (**TailwindCSS type** to **Tailwind Css class**):
 
-| This library type | Talewind CSS class      |
-| ----------- | ----------- |
-|   BgYellow400 | "bg-yellow-400" |
-|   BorderOpacity75 | "border-opacity-75" |
-|   SkewX12_ | "-skew-x-12" |
-|   TranslateY1_2 | "translate-y-1/2" |
-|   SM W1_2 | "sm:w-1/2" |
-|   LG W1_4 | "lg:w-1/4" |
-|   HOVER BgTeal300 | "hover:bg-teal-300" |
+- **BgYellow400** to *"bg-yellow-400"*
+- **BorderOpacity75** to *"border-opacity-75"*
+- **SkewX12_** to *"-skew-x-12"*
+- **TranslateY1_2** to *"translate-y-1/2"*
+- **SM W1_2** to *"sm:w-1/2"*
+- **LG W1_4** to *"lg:w-1/4"*
+- **HOVER BgTeal300** to *"hover:bg-teal-300"*
 
