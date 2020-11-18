@@ -2,6 +2,8 @@
 
 Definition of [Tailwind CSS](https://tailwindcss.org/) classes as Elm types.
 
+Library is inspirated by [afidegnum/elm-tailwind](https://package.elm-lang.org/packages/afidegnum/elm-tailwind/1.0.0/), but I used types instead functions with all advantages and disadvantages. 
+
 ## Example
 
 Look in div's attribute list.
