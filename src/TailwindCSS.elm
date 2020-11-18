@@ -1,4 +1,4 @@
-module TailwindCSS exposing (tailwind, TailwindCSS)
+module TailwindCSS exposing (tailwind, TailwindCSS(..))
 
 {-| This library define a list of types to describe Tailwind CSS classes.
 Use them as arguments of tailwind function to become Attribute msg with classes.
