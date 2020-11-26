@@ -1,9 +1,9 @@
 {
     "type": "package",
-    "name": "lnkr-a/tailwindcss-typed",
+    "name": "laniakea-landscape/tailwindcss-typed",
     "summary": "Pack of types and function to simplify using Tailwind CSS classes",
     "license": "BSD-3-Clause",
-    "version": "2.0.1",
+    "version": "1.0.0",
     "exposed-modules": [
         "TailwindCSS"
     ],
